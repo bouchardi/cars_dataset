@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "cars-dataset"
+version = "0.1.0"
+description = ""
+authors = ["Isabelle Bouchard <isabelle.bouchard77@gmail.com>"]
+readme = "README.md"
+packages = [{include = "cars_dataset"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+jupyter = "^1.0.0"
+notebook = "^6.5.2"
+numpy = "^1.23.5"
+pillow = "^9.3.0"
+scipy = "^1.9.3"
+torch = "~1.12.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
